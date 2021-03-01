@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../font_xiaomiyoupin/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="../font_2/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="../font_3/iconfont.css"/>
+    <link rel="stylesheet" href="../css/css/swiper.min.css">
+    <link rel="stylesheet" href="../css/item.css">
+    <script src="../js/swiper.min.js"></script>
+    <script src="../jquery/jquery-1.8.3.min.js"></script>
+    <script src="../js/data.js"></script>
+</head>
+<body>
+    <header>
+        <ul class="wrap">
+            <li>
+                <a href="login.html">登录</a>
+                <a href="#">注册</a>
+                <span>|</span>
+            </li>
+            <li>
+                <a href="#">帮助中心</a>
+                <span>|</span>
+            </li>
+            <li>
+                <a href="#"><i class="iconfont icon-shouji"></i>下载APP</a>
+                <span>|</span>
+            </li>
+            <li class="zizhi" id="zhengZhao">
+                <a href="#">资质证照/协议规则</a>
+                <span class="iconfont icon-xia"></span>
+                <div class="header_hidden" id="headerHidden">
+                    <p>资质证照</p>
+                    <p>协议规则</p>
+                </div>
+            </li>
+        </ul>
+    </header>
+    <div class="wrap">
+        <div class="shop">
+            <img src="../img/logo_1.png" alt="">
+            <p><a href="#">限时抢购</a></p>
+            <p><a href="#">企业采购</a></p>
+            <div class="search">
+                <span class="search-right"><a href="./item.html" target="_self" class="iconfont icon-ic_business24px"></a></span>
+                <div class="search-icon">
+                    <input type="text" placeholder="搜一搜">
+                    <span class="iconfont icon-sousuo"></span>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <ul class="nav_left" id="navLeft">
+                <li id="li-1">
+                    <a href="#">有品推荐</a>
+                    <span>/</span>
+                    <a href="#">手机数码</a>
+                </li>
+                <li id="li-2">
+                    <a href="#">家用电器</a>
+                    <span>/</span>
+                    <a href="#">智能家庭</a>
+                </li>
+                <li>
+                    <a href="#">美食酒饮</a>
+                    <span>/</span>
+                    <a href="#">家具家装</a>
+                </li>
+                <li>
+                    <a href="#">电脑办公</a>
+                    <span>/</span>
+                    <a href="#">出行车品</a>
+                </li>
+                <li>
+                    <a href="#">服装配饰</a>
+                    <span>/</span>
+                    <a href="#">运动户外</a>
+                </li>
+                <li>
+                    <a href="#">健康保健</a>
+                    <span>/</span>
+                    <a href="#">美妆个护</a>
+                </li>
+                <li>
+                    <a href="#">日用文创</a>
+                    <span>/</span>
+                    <a href="#">家纺餐厨</a>
+                </li>
+                <li>
+                    <a href="#">鞋靴箱包</a>
+                    <span>/</span>
+                    <a href="#">母婴亲子</a>
+                </li>
+                <li>
+                    <a href="#">母婴生活</a>
+                    <span>/</span>
+                    <a href="#">有品海购</a>
+                </li>
+                <li>
+                    <a href="#">DLAB</a>
+                </li>
+            </ul>
+<!--            <div class="nav_hidden">-->
+                <div class="nav_hidden tuijian" id="tuiJian">
+                    <h2>有品推荐</h2>
+                    <ul>
+                        <li>
+                            <p>为你推荐</p>
+                            <p>
+                                <span>智能手环</span>
+                                <span>真无线</span>
+                                <span>全面屏</span>
+                                <span>吸顶灯</span>
+                                <span>即热饮水机</span>
+                                <span>轻薄本</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>精选专区</p>
+                            <p>
+                                <span>回购榜单</span>
+                                <span>回购榜单</span>
+                                <span>回购榜单</span>
+                                <span>回购榜单</span>
+                                <span>回购榜单</span>
+                                <span>回购榜单</span>
+                            </p>
+                        </li>
+                    </ul>
+                    <h2>手机数码</h2>
+                    <ol>
+                        <li>
+                            <p>热门精选</p>
+                            <p>
+                                <span>小米10</span>
+                                <span>Note 9</span>
+                                <span>红米9A</span>
+                                <span>苹果周边</span>
+                                <span>酷玩好奇</span>
+                                <span>低至9.9元</span>
+                            </p>
+
+                        </li>
+                        <li>
+                            <p>手机</p>
+                            <p>
+                                <span>Redmi系列</span>
+                                <span>小米系列</span>
+                                <span>Note 9</span>
+                                <span>游戏手机</span>
+                                <span>5G超大杯</span>
+                                <span>老人机</span>
+                            </p>
+
+                        </li>
+                        <li>
+                            <p>手机配件</p>
+                            <p>
+                                <span>苹果周边</span>
+                                <span>充电宝</span>
+                                <span>无线充电宝</span>
+                                <span>暖手宝</span>
+                                <span>充电器</span>
+                                <span>氮化镓充电器</span>
+                                <span>无线充电器</span>
+                                <span>手机支架</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>数码配件</p>
+                            <p>
+                                <span>三脚架/云台</span>
+                                <span>电池</span>
+                                <span>插线板</span>
+                                <span>桌面收纳</span>
+                                <span>存储卡</span>
+                                <span>读卡器</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>投影</p>
+                            <p>
+                                <span>投影仪</span>
+                                <span>激光电视</span>
+                                <span>投影配件</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>音箱音响</p>
+                            <p>
+                                <span>小爱音响</span>
+                                <span>KTV音响</span>
+                                <span>回音壁</span>
+                                <span>家庭音响</span>
+                                <span>便携音箱</span>
+                                <span>唱片影碟</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>影音娱乐</p>
+                            <p>
+                                <span>阅读器</span>
+                                <span>麦克风</span>
+                                <span>影音配件</span>
+                            </p>
+
+                        </li>
+                        <li>
+                            <p>耳机</p>
+                            <p>
+                                <span>真无线</span>
+                                <span>头戴式</span>
+                                <span>骨传导</span>
+                                <span>颈戴式</span>
+                                <span>有线耳机</span>
+                                <span>无线耳机</span>
+                            </p>
+
+                        </li>
+                        <li>
+                            <p>相机</p>
+                            <p>
+                                <span>拍立得</span>
+                                <span>运动相机</span>
+                                <span>数码相机</span>
+                                <span>单反相机</span>
+                                <span>微单相机</span>
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+                <div class="nav_hidden home" id="homeDianqi">
+                    <h2>家用电器</h2>
+                    <ul>
+                        <li>
+                            <p>热门精选</p>
+                            <p>
+                                <span>扫地机器人</span>
+                                <span>对开门冰箱</span>
+                                <span>即热饮水机</span>
+                                <span>生活电器</span>
+                                <span>大家电</span>
+                                <span>厨房电器</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>电视</p>
+                            <p>
+                                <span>Redmi电视</span>
+                                <span>32-40英寸</span>
+                                <span>43英寸</span>
+                                <span>50英寸</span>
+                                <span>55-60英寸</span>
+                                <span>65英寸及以上</span>
+                                <span>全面屏</span>
+                                <span>激光电视</span>
+                                <span>电视盒子</span>
+                                <span>安装服务</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>冰箱</p>
+                            <p>
+                                <span>两门冰箱</span>
+                                <span>三门冰箱</span>
+                                <span>对开门冰箱</span>
+                                <span>十字四门冰箱</span>
+                                <span>冷柜/酒柜</span>
+                                <span>米家冰箱</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>洗衣机</p>
+                            <p>
+                                <span>洗烘一体机</span>
+                                <span>滚筒一体机</span>
+                                <span>波轮洗衣机</span>
+                                <span>迷你洗衣机</span>
+                                <span>烘干机</span>
+                                <span>冰洗套餐</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>空调</p>
+                            <p>
+                                <span>壁挂空调</span>
+                                <span>柜式空调</span>
+                                <span>一级能效</span>
+                                <span>三级能效</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>生活电器</p>
+                            <p>
+                                <span>扫地机器人</span>
+                                <span>吸尘器</span>
+                                <span>电风扇</span>
+                                <span>空气净化器</span>
+                                <span>加湿器</span>
+                                <span>取暖器</span>
+                                <span>蒸汽清洁机</span>
+                                <span>除螨仪</span>
+                                <span>擦窗机器人</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>厨房小电</p>
+                            <p>
+                                <span>即热饮水机</span>
+                                <span>破壁/料理机</span>
+                                <span>电水壶/滤水壶</span>
+                                <span>原汁机</span>
+                                <span>多功能锅</span>
+                                <span>电烤箱</span>
+                                <span>空气炸锅</span>
+                                <span>微波炉</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>厨卫大电</p>
+                            <p>
+                                <span>净水器</span>
+                                <span>烟灶套装</span>
+                                <span>烟灶三件套</span>
+                                <span>洗碗机</span>
+                                <span>嵌入式厨房</span>
+                                <span>消毒柜</span>
+                                <span>集成灶</span>
+                                <span>油烟机</span>
+                                <span>燃气灶</span>
+                            </p>
+                        </li>
+                    </ul>
+                    <h2>智能家庭</h2>
+                    <ol>
+                        <li>
+                            <p>智能门锁</p>
+                            <p>
+                                <span>执手款</span>
+                                <span>推拉款</span>
+                                <span>其他锁类</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>智能安防</p>
+                            <p>
+                                <span>智能门铃</span>
+                                <span>智能猫眼</span>
+                                <span>保险箱</span>
+                                <span>摄像机</span>
+                                <span>报警器</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>智能家居</p>
+                            <p>
+                                <span>家庭套装</span>
+                                <span>窗帘电机</span>
+                                <span>开关</span>
+                                <span>空调伴侣</span>
+                                <span>插座</span>
+                                <span>网关</span>
+                                <span>传感器</span>
+                                <span>检测仪</span>
+                                <span>远程遥控</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>路由器</p>
+                            <p>
+                                <span>路由器</span>
+                                <span>Redmi路由器</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>智能穿戴</p>
+                            <p>
+                                <span>智能手环</span>
+                                <span>时尚智能手表</span>
+                                <span>运动智能手表</span>
+                                <span>防丢设备</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p>智能酷玩</p>
+                            <p>
+                                <span>AR/VR</span>
+                                <span>智能教育</span>
+                                <span>照片打印机</span>
+                                <span>智酷玩具</span>
+                                <span>智能乐器</span>
+                                <span>无人机</span>
+                                <span>游戏周边</span>
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+<!--                <div class="wine nav_hidden">-->
+<!--                    <h2>美食酒饮</h2>-->
+<!--                    <ul>-->
+<!--                        <li>-->
+<!--                            <p>热门精选</p>-->
+<!--                            <span>新品榜</span>-->
+<!--                            <span>热销榜</span>-->
+<!--                            <span>酒坊</span>-->
+<!--                            <span>滋补美食推荐</span>-->
+<!--                            <span>轻食健身</span>-->
+<!--                            <span>特产馆</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>生鲜干货</p>-->
+<!--                            <span>牛羊肉类</span>-->
+<!--                            <span>禽肉蛋品</span>-->
+<!--                            <span>海鲜水产</span>-->
+<!--                            <span>冷冻食品</span>-->
+<!--                            <span>时令果蔬</span>-->
+<!--                            <span>南北干货</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>方便食品</p>-->
+<!--                            <span>方便速食</span>-->
+<!--                            <span>方便菜</span>-->
+<!--                            <span>轻食运动</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>零食特产</p>-->
+<!--                            <span>休闲零食</span>-->
+<!--                            <span>坚果炒货</span>-->
+<!--                            <span>饼干蛋糕</span>-->
+<!--                            <span>熟食腊味</span>-->
+<!--                            <span>地方特产</span>-->
+<!--                            <span>进口食品</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>滋补保健</p>-->
+<!--                            <span>传统滋补</span>-->
+<!--                            <span>营养成分</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>酒水</p>-->
+<!--                            <span>白酒</span>-->
+<!--                            <span>葡萄酒</span>-->
+<!--                            <span>啤酒</span>-->
+<!--                            <span>洋酒</span>-->
+<!--                            <span>清酒</span>-->
+<!--                            <span>黄酒/养身酒</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>茗茶</p>-->
+<!--                            <span>绿茶</span>-->
+<!--                            <span>红茶</span>-->
+<!--                            <span>普洱茶</span>-->
+<!--                            <span>花茶/养生茶</span>-->
+<!--                            <span>黑茶/白茶</span>-->
+<!--                            <span>青茶</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>冲饮乳品</p>-->
+<!--                            <span>乳品冷饮</span>-->
+<!--                            <span>蜂蜜</span>-->
+<!--                            <span>冲调饮品</span>-->
+<!--                            <span>饮料</span>-->
+<!--                            <span>饮用水</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>粮油调味</p>-->
+<!--                            <span>米面杂粮</span>-->
+<!--                            <span>调味品</span>-->
+<!--                            <span>食用油</span>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                    <h2>家具家装</h2>-->
+<!--                    <ol>-->
+<!--                        <li>-->
+<!--                            <p>厨房卫浴</p>-->
+<!--                            <span>淋浴花洒</span>-->
+<!--                            <span>浴霸吊顶</span>-->
+<!--                            <span>马桶</span>-->
+<!--                            <span>智能马桶</span>-->
+<!--                            <span>智能马桶盖</span>-->
+<!--                            <span>水槽</span>-->
+<!--                            <span>厨卫龙头</span>-->
+<!--                            <span>厨卫收纳</span>-->
+<!--                            <span>厨卫配件</span>-->
+<!--                            <span>饮水工具</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>家装建材</p>-->
+<!--                            <span>晾晒专区</span>-->
+<!--                            <span>窗帘电机</span>-->
+<!--                            <span>门窗地板吊顶</span>-->
+<!--                            <span>门锁</span>-->
+<!--                            <span>开关/插座</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>家具</p>-->
+<!--                            <span>卧室家具</span>-->
+<!--                            <span>客厅家具</span>-->
+<!--                            <span>餐厅家具</span>-->
+<!--                            <span>书房家具</span>-->
+<!--                            <span>儿童家具</span>-->
+<!--                            <span>阳台家具</span>-->
+<!--                            <span>电动家具</span>-->
+<!--                            <span>小件家具</span>-->
+<!--                            <span>设计师家具</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>照明品牌</p>-->
+<!--                            <span>Yeelight系列</span>-->
+<!--                            <span>慧作系列</span>-->
+<!--                            <span>欧普系列</span>-->
+<!--                            <span>飞利浦系列</span>-->
+<!--                            <span>华艺系列</span>-->
+<!--                            <span>美的系列</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>灯</p>-->
+<!--                            <span>新品推荐</span>-->
+<!--                            <span>吸顶灯</span>-->
+<!--                            <span>吊灯</span>-->
+<!--                            <span>面板灯</span>-->
+<!--                            <span>落地灯</span>-->
+<!--                            <span>氛围照明</span>-->
+<!--                            <span>台灯</span>-->
+<!--                            <span>床头灯</span>-->
+<!--                            <span>橱柜灯</span>-->
+<!--                            <span>化妆灯</span>-->
+<!--                            <span>杀菌灯</span>-->
+<!--                            <span>灯带</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>床垫</p>-->
+<!--                            <span>乳胶床垫</span>-->
+<!--                            <span>黄麻床垫</span>-->
+<!--                            <span>弹簧床垫</span>-->
+<!--                            <span>小于8cm 薄</span>-->
+<!--                            <span>12-17cm 偏薄</span>-->
+<!--                            <span>18-23cm 标准</span>-->
+<!--                            <span>大于25cm 厚</span>-->
+<!--                            <span>儿童床垫</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>家装服务</p>-->
+<!--                            <span>全屋定制</span>-->
+<!--                            <span>安装服务</span>-->
+<!--                        </li>-->
+<!--                    </ol>-->
+<!--                </div>-->
+<!--                <div class="computure">-->
+<!--                    <h2>电脑办公</h2>-->
+<!--                    <ul>-->
+<!--                        <li>-->
+<!--                            <p>热门精选</p>-->
+<!--                            <span>新品尝鲜</span>-->
+<!--                            <span>宅家娱乐</span>-->
+<!--                            <span>桌面研究所</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>电脑整机</p>-->
+<!--                            <span>轻薄本</span>-->
+<!--                            <span>游戏本</span>-->
+<!--                            <span>设计师创意</span>-->
+<!--                            <span>台式机</span>-->
+<!--                            <span>一体机</span>-->
+<!--                            <span>平板电脑</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>电脑组件</p>-->
+<!--                            <span>显示器</span>-->
+<!--                            <span>内置硬盘</span>-->
+<!--                            <span>内存条</span>-->
+<!--                            <span>CPU处理器</span>-->
+<!--                            <span>显卡</span>-->
+<!--                            <span>主板</span>-->
+<!--                            <span>机箱</span>-->
+<!--                            <span>电源</span>-->
+<!--                            <span>散热器</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>电脑外设</p>-->
+<!--                            <span>固态硬盘</span>-->
+<!--                            <span>机械硬盘</span>-->
+<!--                            <span>插线板</span>-->
+<!--                            <span>U盘</span>-->
+<!--                            <span>固态U盘</span>-->
+<!--                            <span>双口U盘</span>-->
+<!--                            <span>网盘/NAS</span>-->
+<!--                            <span>硬盘盒</span>-->
+<!--                            <span>键盘</span>-->
+<!--                            <span>机械键盘</span>-->
+<!--                            <span>鼠标</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>办公设备</p>-->
+<!--                            <span>打印机</span>-->
+<!--                            <span>升降台</span>-->
+<!--                            <span>扫描仪</span>-->
+<!--                            <span>显示器支架</span>-->
+<!--                            <span>显示器挂灯</span>-->
+<!--                            <span>摄像头</span>-->
+<!--                            <span>翻页笔</span>-->
+<!--                            <span>网线</span>-->
+<!--                            <span>打印耗材</span>-->
+<!--                            <span>办公家具</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>电竞游戏</p>-->
+<!--                            <span>电竞椅</span>-->
+<!--                            <span>电竞桌</span>-->
+<!--                            <span>游戏手柄</span>-->
+<!--                            <span>游戏键盘</span>-->
+<!--                            <span>游戏鼠标</span>-->
+<!--                            <span>游戏鼠标垫</span>-->
+<!--                            <span>游戏耳机</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>电脑品牌</p>-->
+<!--                            <span>RedmiBook</span>-->
+<!--                            <span>小米Air系列</span>-->
+<!--                            <span>小米Pro系列</span>-->
+<!--                            <span>ThinkPad</span>-->
+<!--                            <span>联想Lenovo</span>-->
+<!--                            <span>微软Surface</span>-->
+<!--                            <span>苹果MacBook</span>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                    <h2>出行车品</h2>-->
+<!--                    <ol>-->
+<!--                        <li>-->
+<!--                            <p>热门精选</p>-->
+<!--                            <span>潮酷骑行</span>-->
+<!--                            <span>智能驾驶</span>-->
+<!--                            <span>汽车用品</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>骑行</p>-->
+<!--                            <span>电动自行车</span>-->
+<!--                            <span>折叠电动车</span>-->
+<!--                            <span>平衡车</span>-->
+<!--                            <span>滑板车</span>-->
+<!--                            <span>电动摩托车</span>-->
+<!--                            <span>山地自行车</span>-->
+<!--                            <span>公路自行车</span>-->
+<!--                            <span>折叠自行车</span>-->
+<!--                            <span>城市休闲车</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>车载电器</p>-->
+<!--                            <span>行车记录仪</span>-->
+<!--                            <span>HUD</span>-->
+<!--                            <span>车载吸尘器</span>-->
+<!--                            <span>车载净化器</span>-->
+<!--                            <span>电子后视镜</span>-->
+<!--                            <span>车载冰箱</span>-->
+<!--                            <span>车充</span>-->
+<!--                            <span>车载生活电器</span>-->
+<!--                            <span>电动汽车配件</span>-->
+<!--                            <span>智能驾驶</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>安全自驾</p>-->
+<!--                            <span>充气泵</span>-->
+<!--                            <span>应急启动电源</span>-->
+<!--                            <span>胎压监测</span>-->
+<!--                            <span>安全锤</span>-->
+<!--                            <span>驾驶镜</span>-->
+<!--                            <span>自驾野营</span>-->
+<!--                            <span>车载充气床</span>-->
+<!--                            <span>安全驾驶</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>汽车装饰</p>-->
+<!--                            <span>汽车坐垫</span>-->
+<!--                            <span>汽车脚垫</span>-->
+<!--                            <span>颈枕腰靠</span>-->
+<!--                            <span>手机支架</span>-->
+<!--                            <span>车载香薰</span>-->
+<!--                            <span>方向盘套</span>-->
+<!--                            <span>装饰摆件</span>-->
+<!--                            <span>后备箱垫</span>-->
+<!--                            <span>停车牌</span>-->
+<!--                            <span>车内用品</span>-->
+<!--                            <span>收纳袋</span>-->
+<!--                            <span>车内照明</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>骑行配件</p>-->
+<!--                            <span>头盔/护具</span>-->
+<!--                            <span>雨披</span>-->
+<!--                            <span>车锁</span>-->
+<!--                            <span>车筐</span>-->
+<!--                            <span>打气筒</span>-->
+<!--                            <span>电动车配件</span>-->
+<!--                            <span>平衡车配件</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>保养清洁</p>-->
+<!--                            <span>清洗机</span>-->
+<!--                            <span>洗车水枪</span>-->
+<!--                            <span>打蜡器</span>-->
+<!--                            <span>燃油添加剂</span>-->
+<!--                            <span>洗车配件</span>-->
+<!--                            <span>洗车液/清洁剂</span>-->
+<!--                            <span>划痕修复蜡</span>-->
+<!--                            <span>玻璃水</span>-->
+<!--                        </li>-->
+<!--                    </ol>-->
+<!--                </div>-->
+<!--                <div class="clothes">-->
+<!--                    <h2>服装配饰</h2>-->
+<!--                    <ul>-->
+<!--                        <li>-->
+<!--                            <p>热门精选</p>-->
+<!--                            <span>抄底清仓</span>-->
+<!--                            <span>防蓝光眼镜</span>-->
+<!--                            <span>首饰手表</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>衣服</p>-->
+<!--                            <span>新品推荐</span>-->
+<!--                            <span>T恤/POLO</span>-->
+<!--                            <span>商务衬衫</span>-->
+<!--                            <span>休闲衬衫</span>-->
+<!--                            <span>卫衣</span>-->
+<!--                            <span>夹克/风衣</span>-->
+<!--                            <span>毛衫/针织衫</span>-->
+<!--                            <span>西服西裤</span>-->
+<!--                            <span>羊绒衫</span>-->
+<!--                            <span>羽绒服/棉服</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>裤装</p>-->
+<!--                            <span>休闲裤</span>-->
+<!--                            <span>牛仔裤</span>-->
+<!--                            <span>短裤</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>女装</p>-->
+<!--                            <span>棉羽绒</span>-->
+<!--                            <span>风衣大衣</span>-->
+<!--                            <span>西服/夹克</span>-->
+<!--                            <span>毛衣针织</span>-->
+<!--                            <span>裤装</span>-->
+<!--                            <span>连衣裙</span>-->
+<!--                            <span>衬衫/T恤</span>-->
+<!--                            <span>半身裙</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>内衣</p>-->
+<!--                            <span>保暖内衣</span>-->
+<!--                            <span>男士内裤</span>-->
+<!--                            <span>女士内裤</span>-->
+<!--                            <span>家居服</span>-->
+<!--                            <span>文胸</span>-->
+<!--                            <span>短裤睡裤</span>-->
+<!--                            <span>男士袜子</span>-->
+<!--                            <span>女士袜子</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>珠宝</p>-->
+<!--                            <span>黄金</span>-->
+<!--                            <span>K金</span>-->
+<!--                            <span>银饰</span>-->
+<!--                            <span>钻石</span>-->
+<!--                            <span>珍珠</span>-->
+<!--                            <span>投资金银</span>-->
+<!--                            <span>文玩珠串</span>-->
+<!--                            <span>翡翠玉石</span>-->
+<!--                            <span>时尚饰品</span>-->
+<!--                            <span>祈福转运珠</span>-->
+<!--                            <span>钱币收藏</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>首饰</p>-->
+<!--                            <span>项链</span>-->
+<!--                            <span>戒指</span>-->
+<!--                            <span>耳饰</span>-->
+<!--                            <span>手链</span>-->
+<!--                            <span>轻定制</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>手表</p>-->
+<!--                            <span>机械表</span>-->
+<!--                            <span>石英表</span>-->
+<!--                            <span>光动能</span>-->
+<!--                            <span>男表</span>-->
+<!--                            <span>女表</span>-->
+<!--                            <span>情侣表</span>-->
+<!--                            <span>瑞士表</span>-->
+<!--                            <span>日韩腕表</span>-->
+<!--                            <span>欧美腕表</span>-->
+<!--                            <span>经典国表</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>眼镜</p>-->
+<!--                            <span>近视镜</span>-->
+<!--                            <span>智能变色</span>-->
+<!--                            <span>防蓝光</span>-->
+<!--                            <span>太阳镜</span>-->
+<!--                            <span>老花镜</span>-->
+<!--                            <span>夹片</span>-->
+<!--                            <span>其他</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>配饰</p>-->
+<!--                            <span>皮带</span>-->
+<!--                            <span>帽子</span>-->
+<!--                            <span>围巾手套</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>大牌服饰</p>-->
+<!--                            <span>Armani</span>-->
+<!--                            <span>EA7</span>-->
+<!--                            <span>Hugo Boss</span>-->
+<!--                            <span>Champion</span>-->
+<!--                            <span>Versace</span>-->
+<!--                            <span>Kenzo</span>-->
+<!--                            <span>Zegna</span>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                    <ol>-->
+<!--                        <h2>运动户外</h2>-->
+<!--                        <li>-->
+<!--                            <p>热门精选</p>-->
+<!--                            <span>体育大牌特惠</span>-->
+<!--                            <span>新品礼物清单</span>-->
+<!--                            <span>鞋靴箱包年货</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>健身训练</p>-->
+<!--                            <span>跑步机/走步机</span>-->
+<!--                            <span>划船机</span>-->
+<!--                            <span>动感单车</span>-->
+<!--                            <span>椭圆仪</span>-->
+<!--                            <span>家用小器械</span>-->
+<!--                            <span>美体瑜伽</span>-->
+<!--                            <span>运动防护</span>-->
+<!--                            <span>运动生活</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>运动服饰</p>-->
+<!--                            <span>冲锋衣裤</span>-->
+<!--                            <span>软壳衣裤</span>-->
+<!--                            <span>T恤</span>-->
+<!--                            <span>运动裤</span>-->
+<!--                            <span>卫衣</span>-->
+<!--                            <span>夹克/风衣</span>-->
+<!--                            <span>户外羽绒服</span>-->
+<!--                            <span>功能内衣</span>-->
+<!--                            <span>健身衣</span>-->
+<!--                            <span>运动袜</span>-->
+<!--                            <span>运动配饰</span>-->
+<!--                            <span>瑜伽服饰</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>运动鞋包</p>-->
+<!--                            <span>跑步鞋</span>-->
+<!--                            <span>休闲鞋</span>-->
+<!--                            <span>帆布鞋</span>-->
+<!--                            <span>登山/徒步鞋</span>-->
+<!--                            <span>运动凉鞋</span>-->
+<!--                            <span>板鞋</span>-->
+<!--                            <span>运动球鞋</span>-->
+<!--                            <span>鞋配</span>-->
+<!--                            <span>运动户外包</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>户外装备</p>-->
+<!--                            <span>望远镜</span>-->
+<!--                            <span>户外照明</span>-->
+<!--                            <span>户外手表</span>-->
+<!--                            <span>对讲机</span>-->
+<!--                            <span>帐篷/垫子</span>-->
+<!--                            <span>睡袋/吊床</span>-->
+<!--                            <span>垂钓用品</span>-->
+<!--                            <span>便携桌椅床</span>-->
+<!--                            <span>登山/攀岩</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>大牌折扣</p>-->
+<!--                            <span>运动服饰</span>-->
+<!--                            <span>运动鞋靴</span>-->
+<!--                            <span>运动配饰</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>体育用品</p>-->
+<!--                            <span>麻将机</span>-->
+<!--                            <span>篮/足/排球</span>-->
+<!--                            <span>羽/乒/网球</span>-->
+<!--                            <span>其他体育用品</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <p>泳衣泳具</p>-->
+<!--                            <span>女士泳衣</span>-->
+<!--                            <span>男士泳衣</span>-->
+<!--                            <span>泳帽/泳镜</span>-->
+<!--                            <span>游泳包配</span>-->
+<!--                        </li>-->
+<!--                    </ol>-->
+<!--                </div>-->
+<!--            </div>-->
+                <div class="swiperNav swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#"><img src="../img/lunbo1.jpeg"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="../img/lunbo2.jpeg"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="../img/lunbo3.jpeg"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="../img/lunbo4.png"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="../img/lunbo5.jpeg"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="../img/lunbo6.jpeg"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="../img/lunbo7.jpeg"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="../img/lunbo8.jpeg"></a>
+                        </div>
+                    </div>
+                    <!--                    &lt;!&ndash; 如果需要分页器 &ndash;&gt;-->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- 如果需要导航按钮 -->
+                    <div class="swiper-button-prev swiper-button-white"></div>
+                    <div class="swiper-button-next swiper-button-white"></div>
+
+                    <!-- 如果需要滚动条 -->
+                    <!--        <div class="swiper-scrollbar"></div>-->
+                </div>
+            </div>
+        <div class="sel">
+            <ul>
+                <li>
+                    <div class="box1"><a href="#"><img src="../img/sxjx.png"></a></div>
+                    <p><a href="#">上新精选</a></p>
+                </li>
+                <li>
+                    <div class="box1"><a href="#"><img src="../img/xmzc.png"></a></div>
+                    <p><a href="#">小米众筹</a></p>
+                </li>
+                <li>
+                    <div class="box1"><a href="#"><img src="../img/ypms.png"></a></div>
+                    <p><a href="#">有品秒杀</a></p>
+                </li>
+                <li>
+                    <div class="box1"><a href="#"><img src="../img/rxbd.png"></a></div>
+                    <p><a href="#">热销榜单</a></p>
+                </li>
+                <li>
+                    <div class="box1"><a href="#"><img src="../img/xmzy.png"></a></div>
+                    <p><a href="#">小米自营</a></p>
+                </li>
+            </ul>
+        </div>
+        <!--        有品秒杀start-->
+        <div class="seckill">
+            <h3>有品秒杀</h3>
+            <img src="../img/naozhong.png">
+            <p>14:00场</p>
+            <div class="countdown">
+                <span id="hour">21</span>
+                <span>:</span>
+                <span id="minute">25</span>
+                <span>:</span>
+                <span id="seconds">45</span>
+            </div>
+            <div class="more">
+                <a href="#">更多</a>
+                <a href="#">＞</a>
+            </div>
+        </div>
+        <div class="box">
+            <ul class="item-sale clearfix top-item">
+<!--                <li class="item-info">-->
+<!--                    <div class="box-img">-->
+<!--                        <img src="https://img.youpin.mi-img.com/shopmain/6dc004779174d112a7e92db6cc418402.jpg" alt="">-->
+<!--                    </div>-->
+<!--                    <div class="msg-box">-->
+<!--                        <p class="pro-info" title="">丽得姿面膜</p>-->
+<!--                        <p class="pro-price">-->
+<!--                            <span class="type">￥</span>-->
+<!--                            <span class="money">89</span>-->
+<!--                            <span class="pro-flag">起</span>-->
+<!--                            <span class="market-price">-->
+<!--                                <span class="pro-unit">¥</span>-->
+<!--                                <span class="m-num">367</span>-->
+<!--                            </span>-->
+<!--                        </p>-->
+<!--                    </div>-->
+<!--                </li>-->
+            </ul>
+            <a href="javascript:;" class="box-btn-left"></a>
+            <a href="javascript:;" class="box-btn-right"></a>
+        </div>
+
+        <!--        有品秒杀end-->
+        <!--        每日新品start-->
+        <div class="seckill">
+            <h3>每日新品</h3>
+            <p style="color:#999">每天10点 惊喜不断</p>
+            <div class="more">
+                <a href="#">更多</a>
+                <a href="#">＞</a>
+            </div>
+        </div>
+        <div class="box">
+            <ul class="item-sale clearfix new-item">
+                <li class="item-info">
+                    <div class="box-img">
+                        <img src="https://img.youpin.mi-img.com/shopmain/6dc004779174d112a7e92db6cc418402.jpg" alt="">
+                    </div>
+                    <div class="msg-box bottom">
+                        <p class="pro-info" title="">儿童80支纯棉件套</p>
+                        <p class="pro-desc">
+                            缎纹织造 婴童A类 新疆长绒棉 ...
+                        </p>
+                        <p class="pro-price">
+                            <span class="type">￥</span>
+                            <span class="money">89</span>
+                            <span class="pro-flag">起</span>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+<!--        每日新品end-->
+<!--        专属推荐start-->
+        <!--         专属推荐 start-->
+        <div class="zhuanshu">
+            <h2>专属推荐</h2>
+            <ul class="box-item">
+            </ul>
+        </div>
+<!--        专属推荐end-->
+<!--        footer start-->
+        <footer>
+            <div class="footer-logo">
+                <img src="../img/logo2.png">
+            </div>
+            <div class="message">
+                <div class="copy">
+                    <p>
+                        ©xiaomiyoupin.com 苏B2-20180351 苏ICP备18025642号-1
+                    </p>
+                    <img src="../img/gongan.png">
+                    <a href="#">苏公网安备 32010502010244号</a>
+                </div>
+                <p class="company">
+                    <sapn>企业名称：有品信息科技有限公司</sapn>
+                    <a href="#">关于我们</a>
+                    <a href="#">入驻有品</a>
+                    <a href="#">知识产权侵权投诉</a>
+                </p>
+                <p class="notice">
+                    <a href="#">小米有品平台运营主体变更公告</a>
+                </p>
+                <p class="address">
+                    南京市建邺区白龙江东街8号3栋9层
+                </p>
+            </div>
+            <div class="manage">
+                <img src="../img/logo3.png">
+            </div>
+        </footer>
+        <div class="fix-tool">
+            <ul class="fix-nav">
+                <li>
+                    <a href="javascript:;" class="icon-kefu"></a>
+                    <p class="text">联系客服</p>
+                    <div class="serve-hide">
+                        <div class="serve-inner">
+                            <p class="info-title">小米有品平台问题，建议反馈，商户和物流问题投诉等请拨打 小米有品客服热线</p>
+                            <p class="info-phone">400-100-1199</p>
+                            <p class="info-day">(周一至周日 8：00-18：00)</p>
+                            <p class="info-des">小米/米家自营品牌，手机电视智能硬件商品或订单发货/退款售后问题 请拨打小米自营客服热线</p>
+                            <p class="info-phone">400-100-5678</p>
+                            <p class="info-day">(周一至周日 8：00-18：00)</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;" class="icon-down"></a>
+                    <p class="text">下载 APP</p>
+                    <div class="down-hide">
+                        <div class="down-inner">
+                            <img src="../img/code.png" alt="">
+                            <p>
+                                "下载小米有品APP"
+                                <br>
+                                "得新人礼包"
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;" class="icon-new"></a>
+                    <p class="text">新人有礼</p>
+                    <div class="new-hide">
+                        <div class="new-inner">
+                            <div class="gift"></div>
+                            <img src="../img/code.png" alt="">
+                            <p>立即扫码下载·小米有品 APP</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;" class="icon-wei"></a>
+                    <p class="text">关注微信</p>
+                    <div class="hide-code">
+                        <div class="code-inner">
+                            <img src="../img/wx_code.08890cf0.png" alt="">
+                            <p class="tip">扫码关注「小米有品」微信服务号，签到积分赢大奖</p>
+                        </div>
+                    </div>
+                </li>
+                <li id="to-top">
+                    <a href="javascript:;" class="icon-top"></a>
+                    <p class="text">回到顶部</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</body>
+    <script src="../js/index.js"></script>
+    <script src="../js/count.js"></script>
+    <script src="../js/headerhidden.js"></script>
+    <script src="../js/navHidden.js"></script>
+<!--    <script src="../js/index2.js"></script>-->
+</body>
+</html>

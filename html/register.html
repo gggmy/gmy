@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <img src="../img/logo4.png" alt="">
+            <p>注册小米账号</p>
+        </header>
+        <div class="area">
+            <p>手机号码</p>
+            <input type="text" placeholder="请输入手机号码">
+            <p></p>
+        </div>
+        <div class="number">
+            <p>密码</p>
+            <input type="password" placeholder="请输入密码" id="sjhm">
+        </div>
+        <div class="logon" id="lg">
+            <input type="button" value="立即注册" id="zc"/>
+        </div>
+        <div class="read">
+            <p>已阅读并同意：小米<a href="https://static.account.xiaomi.com/html/agreement/user/zh_CN.html" target="_blank">用户协议</a>
+                和<a href="https://privacy.mi.com/miaccount/zh_CN/" target="_blank">隐私政策</a></p>
+        </div>
+    </div>
+    <footer>
+        <div class="language">
+            <p>简体</p>
+            <p>|</p>
+            <p>繁体</p>
+            <p>|</p>
+            <p>English</p>
+            <p>|</p>
+            <p>常见问题</p>
+        </div>
+        <div class="copyright">
+            <p>小米公司版权所有-京ICP备10046444-</p>
+            <img src="../img/gongan.png">
+            <span>
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020134" target="_blank">
+                    京公网安备11010802020134号
+                </a>
+                  京ICP证110507号
+            </span>
+        </div>
+    </footer>
+    <script>
+        var oZc = document.getElementById('zc');
+        oZc.onclick= function (){
+            alert('注册成功！')
+            location.href = 'login.html';
+        }
+    </script>
+
+<!--    <script src="../js/register.js"></script>-->
+</body>
+</html>

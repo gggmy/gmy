@@ -1,0 +1,386 @@
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+}
+
+.box-item {
+  margin-top: 50px;
+  width: 100%;
+  margin-bottom: 80px;
+}
+.box-item .list {
+  height: 350px;
+  width: 266px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  border: 1px solid #e7e7e7;
+  float: left;
+  margin-left: 5px;
+}
+.box-item .list:nth-child(4n+1) {
+  margin-left: 0;
+}
+.box-item .list:hover {
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  transform: translate3d(0, -2px, 0);
+}
+.box-item .list .item-img {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 3px;
+  width: 194px;
+  height: 195px;
+}
+.box-item .list .item-img img {
+  width: 195px;
+}
+.box-item .list .pro-des {
+  color: #845f3f;
+  font-size: 16px;
+  line-height: 20px;
+  height: 20px;
+  margin-top: 0;
+  text-align: center;
+}
+.box-item .list .msg {
+  margin-top: 18px;
+  padding: 13px 0 10px;
+  background: #f8f8f8;
+}
+.box-item .list .msg .tips {
+  text-align: center;
+  height: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.box-item .list .msg .tips span {
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+  background-color: #d96b6c;
+  padding: 0 6px;
+}
+.box-item .list .msg .info {
+  color: #333;
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 22px;
+  height: 22px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+.box-item .list .msg .price {
+  margin-top: 11px;
+  margin-bottom: 0;
+  height: 22px;
+  line-height: 22px;
+  color: #a92112;
+  text-align: center;
+}
+.box-item .list .msg .price .type {
+  margin-right: -5px;
+  font-size: 14px;
+}
+.box-item .list .msg .price .num {
+  font-size: 20px;
+}
+
+.fix-tool {
+  position: fixed;
+  top: 220px;
+  right: 10px;
+  z-index: 999;
+  width: 71px;
+  padding: 0 5px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
+}
+.fix-tool .fix-nav li {
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+  border-bottom: 1px solid #e7e7e7;
+  cursor: pointer;
+  position: relative;
+}
+.fix-tool .fix-nav li:nth-child(1):hover {
+  color: #845f3f;
+}
+.fix-tool .fix-nav li:nth-child(1):hover .icon-kefu {
+  background-position: 0 -1610px;
+}
+.fix-tool .fix-nav li .icon-kefu {
+  width: 30px;
+  height: 30px;
+  background-position: 0 -1644px;
+  display: inline-block;
+  background-image: url(../img/spirt.png);
+}
+.fix-tool .fix-nav li:nth-child(2):hover {
+  color: #845f3f;
+}
+.fix-tool .fix-nav li:nth-child(2):hover .icon-down {
+  background-position: 0 -1236px;
+}
+.fix-tool .fix-nav li .icon-down {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-image: url(../img/spirt.png);
+  background-position: 0 -1270px;
+}
+.fix-tool .fix-nav li .icon-new {
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/spirt.png);
+  background-position: 0 -794px;
+  display: inline-block;
+}
+.fix-tool .fix-nav li:nth-child(3):hover {
+  color: #845f3f;
+}
+.fix-tool .fix-nav li:nth-child(3):hover .icon-new {
+  background-position: 0 -760px;
+}
+.fix-tool .fix-nav li .icon-wei {
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/spirt.png);
+  background-position: 0 -998px;
+  display: inline-block;
+}
+.fix-tool .fix-nav li:nth-child(4):hover {
+  color: #845f3f;
+}
+.fix-tool .fix-nav li:nth-child(4):hover .icon-wei {
+  background-position: 0 -1780px;
+}
+.fix-tool .fix-nav li .icon-top {
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/spirt.png);
+  background-position: 0 -1304px;
+  display: inline-block;
+}
+.fix-tool .fix-nav li:nth-child(5):hover {
+  color: #845f3f;
+}
+.fix-tool .fix-nav li:nth-child(5):hover .icon-top {
+  background-position: 0 -1338px;
+}
+.fix-tool .fix-nav li .hide-code {
+  width: 210px;
+  left: -224px;
+  position: absolute;
+  top: 0;
+  display: none;
+  padding-right: 20px;
+}
+.fix-tool .fix-nav li .hide-code .code-inner {
+  padding: 10px;
+  border: 1px solid #dfdfdf;
+  background: #fff;
+}
+.fix-tool .fix-nav li .hide-code .code-inner img {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 10px;
+  display: block;
+}
+.fix-tool .fix-nav li .new-hide {
+  height: 328px;
+  overflow: hidden;
+  left: -226px;
+  position: absolute;
+  top: 0;
+  display: none;
+  padding-right: 20px;
+}
+.fix-tool .fix-nav li .new-hide .new-inner {
+  padding: 10px;
+  border: 1px solid #dfdfdf;
+  background: #fff;
+}
+.fix-tool .fix-nav li .new-hide .new-inner .gift {
+  width: 190px;
+  height: 152px;
+  margin-bottom: 20px;
+  background: url("../img/gift-gd.png") 50% no-repeat;
+  background-size: 100%;
+}
+.fix-tool .fix-nav li .new-hide .new-inner img {
+  padding: 8px;
+  border: 1px solid #e7e7e7;
+  display: block;
+  width: 88px;
+  height: 88px;
+  margin: 0 auto 10px;
+}
+.fix-tool .fix-nav li .down-hide {
+  width: 130px;
+  overflow: hidden;
+  position: absolute;
+  left: -144px;
+  top: 0;
+  display: none;
+  padding-right: 20px;
+}
+.fix-tool .fix-nav li .down-hide .down-inner {
+  padding: 10px;
+  border: 1px solid #dfdfdf;
+  background: #fff;
+}
+.fix-tool .fix-nav li .down-hide .down-inner img {
+  display: block;
+  width: 88px;
+  height: 88px;
+  margin: 0 auto 10px;
+}
+.fix-tool .fix-nav li .serve-hide {
+  width: 230px;
+  left: -244px;
+  position: absolute;
+  top: 0;
+  display: none;
+  padding-right: 20px;
+}
+.fix-tool .fix-nav li .serve-hide .serve-inner {
+  padding: 10px 18px;
+  border: 1px solid #dfdfdf;
+  background: #fff;
+}
+.fix-tool .fix-nav li .serve-hide .serve-inner .info-title {
+  margin-top: 8px;
+  color: #333;
+  font-size: 12px;
+}
+.fix-tool .fix-nav li .serve-hide .serve-inner .info-phone {
+  margin-top: 15px;
+  color: #845f3f;
+  font-size: 20px;
+}
+.fix-tool .fix-nav li .serve-hide .serve-inner .info-day {
+  margin-top: 1px;
+  color: #666;
+  font-size: 12px;
+}
+.fix-tool .fix-nav li .serve-hide .serve-inner .info-des {
+  margin-top: 18px;
+  color: #333;
+  font-size: 12px;
+}
+
+.box {
+  width: 1080px;
+  overflow: hidden;
+  position: relative;
+}
+.box .item-sale {
+  width: 10000px;
+  position: relative;
+}
+.box .item-sale li {
+  float: left;
+  width: 266px;
+  margin-right: 5px;
+}
+.box .item-sale li:hover {
+  transform: translate3d(0, -2px, 0);
+}
+.box .item-sale li .box-img {
+  display: block;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  background: #f8f8f8;
+}
+.box .item-sale li .box-img img {
+  width: 266px;
+}
+.box .item-sale li .msg-box {
+  background: #faf6ef;
+  padding-top: 13px;
+  padding-bottom: 15px;
+}
+.box .item-sale li .msg-box .pro-info {
+  color: #333;
+  font-size: 19px;
+  line-height: 23px;
+  height: 23px;
+  margin-top: 0;
+  text-align: center;
+}
+.box .item-sale li .msg-box .pro-desc {
+  color: #666;
+  font-size: 14px;
+  line-height: 18px;
+  height: 18px;
+  margin-top: 8px;
+  text-align: center;
+}
+.box .item-sale li .msg-box .pro-price {
+  margin-top: 11px;
+  margin-bottom: 0;
+  height: 26px;
+  line-height: 26px;
+  color: #a92112;
+  text-align: center;
+}
+.box .item-sale li .msg-box .pro-price .type {
+  font-size: 15px;
+}
+.box .item-sale li .msg-box .pro-price .money {
+  font-size: 22px;
+  margin-left: -4px;
+  position: relative;
+  top: 1px;
+}
+.box .item-sale li .msg-box .pro-price .pro-flag {
+  font-size: 12px;
+}
+.box .item-sale li .msg-box .pro-price .market-price {
+  text-decoration: line-through;
+  color: #333;
+  margin-left: -2px;
+}
+.box .item-sale li .msg-box .pro-price .market-price .pro-unit {
+  font-size: 9px;
+}
+.box .item-sale li .msg-box .pro-price .market-price .m-num {
+  font-size: 14px;
+}
+.box .item-sale li .bottom {
+  background: #fff;
+}
+.box .box-btn-left {
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  background: url("../img/spirt.png") no-repeat 0 -1940px;
+}
+.box .box-btn-left:hover {
+  background-position: 0 -1814px;
+}
+.box .box-btn-right {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  background: url("../img/spirt.png") no-repeat 0 -1856px;
+}
+.box .box-btn-right:hover {
+  background-position: 0 -1898px;
+}
+
+/*# sourceMappingURL=item.css.map */

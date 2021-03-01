@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../font_login/iconfont.css">
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <img src="../img/logo4.png" alt="">
+            <p>小米账号登录</p>
+            <a href="javascript:;" class="ercode"></a>
+        </header>
+        <div class="entry">
+            <input type="text" placeholder="邮箱/手机号码/小米ID">
+            <input type="password" name="" id="" placeholder="密码">
+            <input type="button"  value="登录" id="login">
+        </div>
+        <div class="register">
+            <p>手机短信登录/注册</p>
+            <p>
+                <a href="#" >立即登录</a>
+                <span>|</span>
+                <a href="#">忘记密码？</a>
+            </p>
+        </div>
+        <div>
+            <div class="other">
+                <div class="box"></div>
+                <p>其他方式登录</p>
+                <div class="box"></div>
+            </div>
+            <div class="icon">
+                <a href="#" class="iconfont icon-QQ"></a>
+                <a href="#" class="iconfont icon-weibo"></a>
+                <a href="#" class="iconfont icon-zhifubao"></a>
+                <a href="#" class="iconfont icon-weixin1"></a>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <div class="language">
+            <p>简体</p>
+            <p>|</p>
+            <p>繁体</p>
+            <p>|</p>
+            <p>English</p>
+            <p>|</p>
+            <p>常见问题</p>
+            <p>|</p>
+            <p>隐私政策</p>
+        </div>
+        <div class="copyright">
+            <p>小米公司版权所有-京ICP备10046444-</p>
+            <img src="../img/gongan.png">
+            <span>
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020134" target="_blank">
+                    京公网安备11010802020134号
+                </a>
+                  京ICP证110507号
+            </span>
+        </div>
+    </footer>
+    <script>
+        var oLogin=document.getElementById('login');
+        oLogin.onclick=function (){
+            alert("登录成功！");
+            location.href="index0.html";
+        }
+    </script>
+</body>
+</html>

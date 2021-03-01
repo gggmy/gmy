@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f5f5f5;
+    color: #757575;
+    font-size: 14px;
+}
+
+a{
+    text-decoration:none;
+}
+
+img{
+    display: block;
+}
+
+.wrap{
+    width: 854px;
+    height: 544px;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+}
+
+header{
+    height: 127px;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+
+header img{
+    width: 48px;
+    height: 48px;
+    margin-left: 402px;
+}
+
+header p{
+    margin-top: 6px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+}
+
+.ercode {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.ercode {
+    background: url(https://account.xiaomi.com/static/res/fa9e760/account-static/respassport/acc-2014/img/icon_ercode.png) no-repeat;
+    width: 80px;
+    height: 80px;
+}
+
+.entry{
+    width: 100%;
+
+}
+
+.entry input{
+    display: block;
+    width: 356px;
+    height: 48px;
+    margin: 0 auto;
+    border: #e0e0e0 1px solid;
+}
+
+.entry input:nth-child(1){
+    padding-left: 14px;
+    box-sizing: border-box;
+}
+
+.entry input:nth-child(2){
+    padding-left: 14px;
+    box-sizing: border-box;
+    margin-top: 14px;
+    border:1px solid #e0e0e0;
+}
+
+.entry input:nth-child(3){
+    margin-top: 24px;
+    border:none;
+    background-color: #ff6700;
+    color: #fff;
+}
+
+.register p:nth-child(1){
+    text-align: center;
+    line-height: 38px;
+    color: #ff6700;
+}
+
+.register p:nth-child(2){
+    line-height: 60px;
+    text-align: center;
+}
+
+.register p:nth-child(2) a:nth-child(1){
+    padding-right: 6px;
+    color: #757575;
+}
+
+.register p:nth-child(2) a:nth-child(3){
+    padding-left: 6px;
+    color: #757575;
+}
+
+.register p:nth-child(2) span{
+    color: #e0e5ec;
+}
+
+.other{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.other p{
+    height: 48px;
+    width: 84px;
+    line-height: 48px;
+    font-size: 14px;
+}
+
+.box{
+    margin-top: 23px;
+    width: 137px;
+    height: 1px;
+    border: none;
+    border-top: 1px solid #e0e0e0;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+}
+
+.icon a{
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+.icon-QQ{
+    color: #0288d1;
+}
+
+.icon-weibo{
+    color: #d32f2f;
+}
+
+.icon-zhifubao{
+    color: #00aaee;
+}
+
+.icon-weixin1{
+    color: #00d20d;
+}
+
+.language{
+    display: flex;
+    margin-top: 14px;
+    height: 34px;
+    justify-content: center;
+}
+
+.language p{
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.language p:nth-child(1){
+    color: #000;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.copyright a{
+    color: #757575;
+}

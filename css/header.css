@@ -1,0 +1,180 @@
+body{
+    font-size: 14px;
+    color:#333;
+    font-family: '微软雅黑';
+}
+
+img{
+    display: block;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrap{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #333;
+    height: 48px;
+
+}
+
+header .wrap{
+    box-sizing: border-box;
+    padding-left: 610px;
+    height: 48px;
+}
+header>.wrap>li{
+    float: left;
+    line-height: 48px;
+}
+
+header>.wrap>li>a{
+    padding-left: 14px;
+    padding-right: 14px;
+    box-sizing: border-box;
+}
+
+header>.wrap>li:nth-child(1)>a:nth-child(1){
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+
+header>.wrap>li:nth-child(1)>a:nth-child(2){
+    padding-left: 0px;
+}
+
+header>.wrap>li>a,header>.wrap>li>span{
+    color:#fff;
+}
+
+.header_hidden{
+    display: none;
+    width: 160px;
+    position: absolute;
+    background-color: #FFF;
+    top: 48px;
+
+}
+
+.header_hidden p{
+    line-height: 35px;
+    text-align: center;
+
+}
+
+.header_hidden p:hover{
+    background-color: #876d46;
+}
+
+.shop{
+    padding-bottom: 15px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.shop img{
+    float: left;
+    margin-left: 4px;
+}
+
+.shop p:nth-child(2){
+    margin-left: 168px;
+    float: left;
+}
+
+.shop p:nth-child(3){
+    margin-left: 34px;
+    float: left;
+}
+.shop p a{
+    color:#666;
+}
+
+.search{
+    overflow: hidden;
+    width: 326px;
+    float: right;
+}
+
+.search-right{
+    float: right;
+    margin-left: 24px;
+}
+
+.search-icon {
+    overflow: hidden;
+    float: left;
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 8px;
+    width: 280px;
+    box-sizing: border-box;
+}
+
+
+.search input{
+    float: right;
+    border: none;
+    outline: none;
+}
+
+
+.search-icon input{
+    float: right;
+    width: 249px;
+}
+
+.search-icon ::-webkit-input-placeholder{
+    color:#ccc;
+}
+
+.search-icon span{
+    margin-right: 11px;
+}
+.page {
+    width: 1080px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0;
+    border: 1px solid #e2e2e2;
+}
+.page a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    line-height: 38px;
+    border: 1px solid #e2e2e2;
+    box-sizing: border-box;
+    color: #969696;
+}
+.page .active {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    line-height: 38px;
+    border: 1px solid #e2e2e2;
+    background:  #876d46;
+    box-sizing: border-box;
+    color: #fff;
+}
+.page .jump-ipt {
+    width: 40px;
+    height: 40px;
+    outline: none;
+    box-sizing: border-box;
+    margin-right: 8px;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+    color: #969696;
+}
